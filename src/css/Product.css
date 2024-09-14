@@ -1,0 +1,36 @@
+.image {
+    height: 100px;
+    width: 100px;
+}
+
+.card {
+    height: 300px;
+    width: 250px;
+    box-shadow: 1px 4px 3px rgb(92, 86, 86);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px;
+
+}
+
+.card:hover {
+    box-shadow: 1px 4px 3px rgb(0, 0, 0);
+    transition: all 0.6s;
+    cursor: pointer;
+}
+
+.card p {
+    height: 50px;
+}
+
+.detail-button {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+.detail-button:hover {
+    background-color: rgb(201, 157, 100);
+    transition: all 0.6s;
+}

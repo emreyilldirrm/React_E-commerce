@@ -1,0 +1,42 @@
+.basket_products {
+    width: 500px;
+    gap: 15px;
+    border: 1px solid lightgray;
+}
+
+.basket_products:hover {
+    transition: all 0.6s;
+    background-color: antiquewhite;
+}
+
+.basket_products img {
+    height: 50px;
+    width: 50px;
+}
+
+
+.delete-button {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+.delete-button:hover {
+    background-color: rgb(201, 157, 100);
+    transition: all 0.6s;
+}
+
+.Total-Amount-Conatiner {
+    justify-content: end;
+}
+
+.Total-Amount {
+
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid lightcoral;
+    background-color: rgb(216, 114, 114);
+    color: aliceblue;
+    padding: 15px;
+    border-radius: 15px;
+}
